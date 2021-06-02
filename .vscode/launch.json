@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "cutter.py",
+            "args": ["-i","${fileDirname}\\test.mp4","-s","00:00:00","-e","00:00:05","-o","${fileDirname}\\test_cut.mp4"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
